@@ -9,76 +9,208 @@
 </head>
 <body>
     <header class="hero">
+        <div class="hero-bg">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
         <div class="container">
             <nav class="nav">
-                <div class="logo">HostPro</div>
+                <div class="logo">
+                    <span class="logo-icon">🚀</span>
+                    <span>HostPro</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#faq">FAQ</a>
+                    <button class="btn btn-nav">Get Started</button>
+                </div>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </nav>
             <div class="hero-content">
-                <h1 class="hero-title">Lightning-Fast Web Hosting for Modern Websites</h1>
-                <p class="hero-subtitle">Experience blazing speed, 99.9% uptime, and enterprise-grade security. Launch your website with confidence.</p>
-                <div class="hero-cta">
-                    <button class="btn btn-primary">Get Started</button>
-                    <button class="btn btn-secondary">View Plans</button>
+                <div class="hero-left">
+                    <div class="hero-badge">
+                        <span class="badge-icon">⚡</span>
+                        <span>#1 Performance Leader</span>
+                    </div>
+                    <h1 class="hero-title">
+                        The Future of
+                        <span class="gradient-text">Web Hosting</span>
+                        is Here
+                    </h1>
+                    <p class="hero-subtitle">Deploy faster, scale effortlessly, and sleep peacefully with our next-generation hosting platform. Join 50,000+ developers who trust HostPro.</p>
+                    <div class="hero-cta">
+                        <button class="btn btn-primary">
+                            <span>🚀 Start Free Trial</span>
+                        </button>
+                        <button class="btn btn-secondary">
+                            <span>🎥 Watch Demo</span>
+                        </button>
+                    </div>
+                    <div class="hero-trust">
+                        <p class="trust-text">Trusted by developers at</p>
+                        <div class="trust-logos">
+                            <span>🏬 Startup</span>
+                            <span>🏢 Enterprise</span>
+                            <span>🌐 Global</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-visual">
+                        <div class="dashboard-mockup">
+                            <div class="mockup-header">
+                                <div class="mockup-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="mockup-title">HostPro Dashboard</div>
+                            </div>
+                            <div class="mockup-content">
+                                <div class="metric-card">
+                                    <div class="metric-label">Response Time</div>
+                                    <div class="metric-value">127ms</div>
+                                    <div class="metric-trend">↗️ +15%</div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-label">Uptime</div>
+                                    <div class="metric-value">99.99%</div>
+                                    <div class="metric-trend">✅ Perfect</div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-label">Traffic</div>
+                                    <div class="metric-value">2.4M</div>
+                                    <div class="metric-trend">📈 +23%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-card card-1">
+                                <span>🔒</span>
+                                <span>SSL Secured</span>
+                            </div>
+                            <div class="floating-card card-2">
+                                <span>⚡</span>
+                                <span>Lightning Fast</span>
+                            </div>
+                            <div class="floating-card card-3">
+                                <span>🌍</span>
+                                <span>Global CDN</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
+        <section class="features" id="features">
+            <div class="container">
+                <h2 class="section-title">Why Choose HostPro?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Lightning Speed</h3>
+                        <p>SSD storage and global CDN ensure your site loads in under 2 seconds worldwide.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Bank-Level Security</h3>
+                        <p>Advanced DDoS protection, SSL certificates, and daily malware scanning included.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>Auto-Scaling</h3>
+                        <p>Handle traffic spikes effortlessly with our intelligent auto-scaling technology.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>99.9% Uptime</h3>
+                        <p>Guaranteed uptime with redundant infrastructure across multiple data centers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="pricing" id="pricing">
             <div class="container">
-                <h2 class="section-title">Choose Your Perfect Plan</h2>
+                <h2 class="section-title">💎 Choose Your Perfect Plan</h2>
+                <p class="section-subtitle">Start free, scale as you grow. No hidden fees, cancel anytime.</p>
                 <div class="pricing-grid">
-                    <div class="pricing-card">
-                        <h3 class="plan-name">Starter</h3>
+                    <div class="pricing-card starter">
+                        <div class="plan-header">
+                            <div class="plan-icon">🌱</div>
+                            <h3 class="plan-name">Starter</h3>
+                            <p class="plan-desc">Perfect for beginners</p>
+                        </div>
                         <div class="plan-price">
                             <span class="price">$4.99</span>
                             <span class="period">/month</span>
+                            <div class="price-note">First month free!</div>
                         </div>
                         <ul class="plan-features">
-                            <li>1 Website</li>
-                            <li>10GB SSD Storage</li>
-                            <li>100GB Bandwidth</li>
-                            <li>Free SSL Certificate</li>
-                            <li>24/7 Support</li>
+                            <li>✅ 1 Website</li>
+                            <li>✅ 10GB SSD Storage</li>
+                            <li>✅ 100GB Bandwidth</li>
+                            <li>✅ Free SSL Certificate</li>
+                            <li>✅ 24/7 Support</li>
                         </ul>
-                        <button class="btn btn-outline">Choose Plan</button>
+                        <button class="btn btn-outline">🚀 Choose Plan</button>
                     </div>
 
                     <div class="pricing-card popular">
-                        <div class="popular-badge">Most Popular</div>
-                        <h3 class="plan-name">Pro</h3>
+                        <div class="popular-badge">🔥 Most Popular</div>
+                        <div class="plan-header">
+                            <div class="plan-icon">💎</div>
+                            <h3 class="plan-name">Pro</h3>
+                            <p class="plan-desc">Best for growing businesses</p>
+                        </div>
                         <div class="plan-price">
                             <span class="price">$9.99</span>
                             <span class="period">/month</span>
+                            <div class="price-note">Save 40% annually!</div>
                         </div>
                         <ul class="plan-features">
-                            <li>5 Websites</li>
-                            <li>50GB SSD Storage</li>
-                            <li>500GB Bandwidth</li>
-                            <li>Free SSL Certificate</li>
-                            <li>Daily Backups</li>
-                            <li>Priority Support</li>
+                            <li>✅ 5 Websites</li>
+                            <li>✅ 50GB SSD Storage</li>
+                            <li>✅ 500GB Bandwidth</li>
+                            <li>✅ Free SSL Certificate</li>
+                            <li>✅ Daily Backups</li>
+                            <li>✅ Priority Support</li>
                         </ul>
-                        <button class="btn btn-primary">Choose Plan</button>
+                        <button class="btn btn-primary glow">🚀 Choose Plan</button>
                     </div>
 
-                    <div class="pricing-card">
-                        <h3 class="plan-name">Business</h3>
+                    <div class="pricing-card enterprise">
+                        <div class="plan-header">
+                            <div class="plan-icon">🏢</div>
+                            <h3 class="plan-name">Business</h3>
+                            <p class="plan-desc">Enterprise-grade solution</p>
+                        </div>
                         <div class="plan-price">
                             <span class="price">$19.99</span>
                             <span class="period">/month</span>
+                            <div class="price-note">White-glove setup!</div>
                         </div>
                         <ul class="plan-features">
-                            <li>Unlimited Websites</li>
-                            <li>200GB SSD Storage</li>
-                            <li>Unlimited Bandwidth</li>
-                            <li>Free SSL Certificate</li>
-                            <li>Daily Backups</li>
-                            <li>Dedicated Support</li>
-                            <li>Advanced Security</li>
+                            <li>✅ Unlimited Websites</li>
+                            <li>✅ 200GB SSD Storage</li>
+                            <li>✅ Unlimited Bandwidth</li>
+                            <li>✅ Free SSL Certificate</li>
+                            <li>✅ Daily Backups</li>
+                            <li>✅ Dedicated Support</li>
+                            <li>✅ Advanced Security</li>
                         </ul>
-                        <button class="btn btn-outline">Choose Plan</button>
+                        <button class="btn btn-outline">🚀 Choose Plan</button>
                     </div>
                 </div>
             </div>
@@ -86,7 +218,8 @@
 
         <section class="faq" id="faq">
             <div class="container">
-                <h2 class="section-title">Frequently Asked Questions</h2>
+                <h2 class="section-title">❓ Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about our hosting services</p>
                 <div class="faq-list">
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">
@@ -154,7 +287,38 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 HostPro. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🚀</span>
+                        <span>HostPro</span>
+                    </div>
+                    <p>Empowering websites with lightning-fast hosting since 2024</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#">Web Hosting</a>
+                        <a href="#">Cloud Hosting</a>
+                        <a href="#">VPS Hosting</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <a href="#">Help Center</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Status Page</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HostPro. All rights reserved. Made with ❤️ for developers</p>
+            </div>
         </div>
     </footer>
 

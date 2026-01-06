@@ -1047,3 +1047,23 @@ header {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-dark);
 }
+
+/* Fix z-index layering */
+.nav {
+    z-index: 9999 !important;
+}
+
+main {
+    position: relative;
+    z-index: 10;
+    background: white;
+}
+
+.features,
+.pricing,
+.testimonials,
+.faq {
+    position: relative;
+    z-index: 10;
+    background: inherit;
+}

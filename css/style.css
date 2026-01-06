@@ -1076,3 +1076,27 @@ main {
 header {
     min-height: 100vh !important;
 }
+/* Fix navigation scroll offset */
+section {
+    scroll-margin-top: 80px;
+}
+
+/* Fix nav link visibility */
+.nav-links a {
+    position: relative;
+    z-index: 10;
+    display: block;
+}
+
+.nav-links a:visited {
+    color: var(--text-light);
+}
+
+.nav-links a:active {
+    color: var(--primary);
+}
+
+/* Ensure proper scrolling behavior */
+html {
+    scroll-padding-top: 80px;
+}

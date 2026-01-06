@@ -1067,3 +1067,12 @@ main {
     z-index: 10;
     background: inherit;
 }
+/* Make hero section full viewport height */
+.hero {
+    min-height: 75vh !important;
+    justify-content: center !important;
+}
+
+header {
+    min-height: 100vh !important;
+}

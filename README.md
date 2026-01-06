@@ -104,16 +104,13 @@ Update CSS variables in `:root` to change the color scheme:
 - Mobile-first responsive design
 - CSS Grid and Flexbox layouts
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
 **Dharan MJ**
-- Portfolio: [Your Portfolio URL]
-- LinkedIn: [Your LinkedIn URL]
-- Email: [Your Email]
+- Portfolio: [http://dharanportfolio.xyz/]
+- LinkedIn: [https://www.linkedin.com/in/dharansjit/]
+- Email: [dharanmj05@gmail.com]
 
 ## 🤝 Contributing
 
